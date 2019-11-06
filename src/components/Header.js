@@ -6,8 +6,7 @@ class Header extends Component {
       <>
       <div className={'header'}>
         <h1>Facebook</h1>
-        <small>Meu Perfil</small>
-        
+        <small>Meu Perfil</small> 
       </div>
       </>
     )

@@ -5,15 +5,15 @@
 }
 
 body {
-  background: #CCC;
+  background: #EEE;
   color: #000;
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased !important;
   text-rendering: optimizeLegibility !important;
   height: 100%;
 }
 
-#app div.header {
+div.header {
   background-color: #4A90E2;
   height: 64px;
   display: flex;
@@ -21,13 +21,49 @@ body {
   align-items: center;
 }
 
-#app div.header h1 {
+div.header h1 {
   color: #FFF;
   margin-left: 42px;
   font-weight: bold;
 }
 
-#app div.header small {
+div.header small {
   color: #FFF;
   margin-right: 82px;
+}
+
+.PostList {
+  position: relative;
+  left: 25%;
+  max-width: 50%;
+  margin: 20px;
+  height: 100%;
+  border-radius: 7px;
+  padding: 25px;
+  color: #333333;
+}
+.PostItem {
+  border-radius: 7px;
+  padding: 25px;
+  background-color: #FFF;
+  color: #555555;
+  margin-bottom: 20px;
+}
+.Comments {
+  background-color: rgba(0,0,0,0.05);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.Avatar { 
+  height: 50px;
+  margin-right: 10px;
+
+}
+.Avatar-align{
+  display: flex;
+  align-items: flex-start;
+}
+.Align {
+  align-items: center;
 }
