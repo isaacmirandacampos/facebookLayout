@@ -1,20 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
   background: #CCC;
   color: #000;
   font-family: Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased !important;
   text-rendering: optimizeLegibility !important;
+  height: 100%;
 }
+
 #app div.header {
   background-color: #4A90E2;
   height: 64px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
+
 #app div.header h1 {
   color: #FFF;
   margin-left: 42px;
+  font-weight: bold;
 }
+
 #app div.header small {
   color: #FFF;
+  margin-right: 82px;
 }
