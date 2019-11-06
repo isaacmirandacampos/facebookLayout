@@ -1,0 +1,20 @@
+body {
+  background: #CCC;
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}
+#app div.header {
+  background-color: #4A90E2;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+#app div.header h1 {
+  color: #FFF;
+  margin-left: 42px;
+}
+#app div.header small {
+  color: #FFF;
+}
